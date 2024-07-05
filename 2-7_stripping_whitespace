@@ -1,0 +1,6 @@
+name = ' andy mccann '
+name = name.title() #converts to title case
+print(f"\nHello, {name}.  How are you?") #shows the whitespace
+print(f"\n\tHello, {name.strip()}. How are you?") #white space removed, and use new line and tab
+print(f"\nHello, {name.lstrip()}. How are you?") #white space removed
+print(f"\nHello, {name.rstrip()}. How are you?") #white space removed
